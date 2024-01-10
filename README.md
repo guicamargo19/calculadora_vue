@@ -8,6 +8,8 @@ Calculadora aritmética simples feita em VueJS.
 
 • Ao alterar os valores o cálculo já é realizado, sem precisar clicar em nenhum botão;
 
+Projeto desenvolvido no curso de Full Stack Python na EBAC - Escola Britânica de Artes Criativas e Tecnologia.              
+
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
