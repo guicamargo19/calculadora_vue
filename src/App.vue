@@ -13,6 +13,9 @@ const estado = reactive({
 
 function getNumber1(evento) {
   estado.numero1 = evento.target.value;
+  if (estado.numero1 == '')  {
+    estado.numero1 = 0;
+  }
   estado.numero1 = parseFloat(estado.numero1)
   getOperacao();
 }
