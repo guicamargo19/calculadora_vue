@@ -14,7 +14,7 @@
                 </li>
             </ul>
             <p class="text-black">
-                ® 2024 Guilherme Camargo. Todos os direitos reservados.
+                ® 2024 - Guilherme Camargo - Todos os direitos reservados.
             </p>
             <p class="text-black">
                 Projeto desenvolvido no curso de Full Stack Python na EBAC - Escola Britânica de Artes Criativas e Tecnologia.              
