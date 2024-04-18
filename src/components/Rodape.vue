@@ -16,9 +16,6 @@
             <p class="text-black">
                 ® 2024 - Guilherme Camargo - Todos os direitos reservados.
             </p>
-            <p class="text-black">
-                Projeto desenvolvido no curso de Full Stack Python na EBAC - Escola Britânica de Artes Criativas e Tecnologia.              
-            </p>
         </div>
     </footer>
 </template>
@@ -26,5 +23,9 @@
 <style scoped>
 .black-text {
   color: #000;
+}
+
+li:hover {
+    transform: scale(1.1);
 }
 </style>
