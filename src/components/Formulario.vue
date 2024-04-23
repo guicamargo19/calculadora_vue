@@ -8,7 +8,7 @@
         <div class="col">
           <input required type="number" placeholder="0" class="form-control mb-4" @keyup="props.getNumber1"/> 
         </div>
-        <div class="col-md-2 mb-4">
+        <div class="col-md-2 mb-4 text-center">
           <select class="form-control text-center" @change="props.getOperador">
             <option class="subtrair text-center" value="subtrair">-</option>
             <option class="somar text-center" selected value="somar">+</option>
@@ -23,11 +23,11 @@
       <div class="row">
         <div class="col">
           <h3 class="black-text">Resultado</h3>
-        </div>>
+        </div>
       </div>
       <div class="row">
         <div class="col">
-          <h2 class="black-text fs-1 fw-bold">{{ props.resultado }}</h2>
+          <h2 class="black-text fs-1 fw-bold ps-2">{{ props.resultado }}</h2>
         </div>>
       </div>
     </form>
@@ -44,15 +44,16 @@ input[type=number]::-webkit-outer-spin-button {
         margin: 0;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .form-control {
     text-align: center;
   }
-  .subtrair,
-  .dividir,
-  .multiplicar,
-  .somar {
-    text-align: center;
+
+  option.subtrair,
+  option.dividir,
+  option.multiplicar,
+  option.somar {
+    text-align: center !important;
   }
 }
 </style>
