@@ -9,7 +9,7 @@
           <input required type="number" placeholder="0" class="form-control mb-4" @keyup="props.getNumber1"/> 
         </div>
         <div class="col-md-2 mb-4">
-          <select class="form-control" @change="props.getOperador">
+          <select class="form-control text-center" @change="props.getOperador">
             <option class="subtrair text-center" value="subtrair">-</option>
             <option class="somar text-center" selected value="somar">+</option>
             <option class="dividir text-center" value="dividir">÷</option>
@@ -46,6 +46,12 @@ input[type=number]::-webkit-outer-spin-button {
 
 @media (max-width: 768px) {
   .form-control {
+    text-align: center;
+  }
+  .subtrair,
+  .dividir,
+  .multiplicar,
+  .somar {
     text-align: center;
   }
 }
