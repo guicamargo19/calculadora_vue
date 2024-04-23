@@ -43,4 +43,15 @@ input[type=number]::-webkit-outer-spin-button {
         -webkit-appearance: none;
         margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .form-control {
+    text-align: center;
+  }
+
+  select {
+    padding-left: 40%;
+    padding-right: 40%;
+  }
+}
 </style>
