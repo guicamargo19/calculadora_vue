@@ -10,10 +10,10 @@
         </div>
         <div class="col-md-2 mb-4 text-center">
           <select class="form-control text-center" @change="props.getOperador">
-            <option class="subtrair text-center" value="subtrair">-</option>
-            <option class="somar text-center" selected value="somar">+</option>
-            <option class="dividir text-center" value="dividir">÷</option>
-            <option class="multiplicar text-center" value="multiplicar">x</option>
+            <option class="subtrair text-center" value="subtrair"><p>-</p></option>
+            <option class="somar text-center" selected value="somar"><p>+</p></option>
+            <option class="dividir text-center" value="dividir"><p>÷</p></option>
+            <option class="multiplicar text-center" value="multiplicar"><p>x</p></option>
           </select>
         </div>
         <div class="col">
@@ -42,18 +42,5 @@ input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
         -webkit-appearance: none;
         margin: 0;
-}
-
-@media screen and (max-width: 768px) {
-  .form-control {
-    text-align: center;
-  }
-
-  option.subtrair,
-  option.dividir,
-  option.multiplicar,
-  option.somar {
-    text-align: center !important;
-  }
 }
 </style>
