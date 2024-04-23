@@ -12,7 +12,7 @@
           <select class="form-control" @change="props.getOperador">
             <option class="subtrair text-center" value="subtrair">-</option>
             <option class="somar text-center" selected value="somar">+</option>
-            <option class="dividir text-center" value="dividir">/</option>
+            <option class="dividir text-center" value="dividir">÷</option>
             <option class="multiplicar text-center" value="multiplicar">x</option>
           </select>
         </div>
@@ -42,5 +42,11 @@ input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
         -webkit-appearance: none;
         margin: 0;
+}
+
+@media (max-width: 768px) {
+  .form-control {
+    text-align: center;
+  }
 }
 </style>
