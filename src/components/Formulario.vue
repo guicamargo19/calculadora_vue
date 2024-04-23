@@ -50,8 +50,8 @@ input[type=number]::-webkit-outer-spin-button {
   }
 
   select {
-    padding-left: 40%;
-    padding-right: 40%;
+    padding-left: 48%;
+    padding-right: 48%;
   }
 }
 </style>
